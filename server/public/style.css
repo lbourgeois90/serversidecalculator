@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+}
+
+header{
+    background-color: white;
+    background-size: 160px, 100%;
+    font-size: 46px;
+    padding: 40px;
+    color: #49494b; 
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-weight:bold;
+}
+
+#calculatorSec {
+    background-color: #e8e8e6;
+    color: #49494b;
+    height: 160px;
+}
+
+form{
+    display: inline-block;
+    margin: 40px;
+
+}
+#number1Input, #number2Input{
+    background-color:#d1bfa7;
+    color: #49494b;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Old Standard TT', serif;
+
+}
+button{
+    background-color:#d1bfa7;
+    color: #49494b;
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Old Standard TT', serif;
+}
+
+
+#addition, #subtraction, #multiplication, #division {
+    height: 50px;
+    width: 50px;
+}
+
+#submitButton, #clearButton, #clearHistory {
+    
+}
+
+#calculatedTotal {
+    background-color: #bd8c7d;
+    height: 75px;
+    width:100%;
+}
+#total{ 
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    color: #49494b;
+    font-weight:bold;
+}
+
+#calculatedHistoryDiv{
+    background-color: #d1bfa7;
+    width:100%;
+}
+
+#calculatedHistory{
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    color: #49494b;
+    list-style-type: none;
+    font-weight:bold;
+    padding: 0px;
+}
